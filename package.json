@@ -1,0 +1,35 @@
+{
+  "name": "didi",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "antd": "^3.7.0",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "router": "^1.3.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "antd": "^3.7.0",
+    "antd-mobile": "^2.2.2",
+    "swiper": "^4.3.3"
+  },
+  "proxy": {
+    "/api": {
+      "target": "https://www.didiglobal.com",
+      "host": "didiglobal.com",
+      "changeOrigin": true,
+      "headers": {
+        "Cookie": "omgh5sid=220271649203-1531873006177; language=zh_cn",
+        "language": "zh_cn"
+      }
+    }
+  }
+}
